@@ -1,4 +1,4 @@
-import { act, useReducer } from "react";
+import { useReducer } from "react";
 import Header from "./components/Header";
 import Loading from "./components/Loading/Loading";
 import FirstScreen from "./layouts/FirstScreen";
