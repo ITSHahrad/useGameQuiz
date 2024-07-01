@@ -4,9 +4,7 @@ export default function Question({question, onIndexChange, onSelect}) {
   const selectedButton = question.selected
 
   const handleSelectedButton = (index) => {
-    if(selectedButton == null) { 
-      onSelect(question.id, index)
-    }
+      selectedButton == null && onSelect(question.id, index)
   }
 
   return <>
