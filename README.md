@@ -4,7 +4,8 @@
 <b>Using <a href="https://opentdb.com">OpenTDB</a> API</b>
 <h5>-> Installation</h5>
 <ol>
-  <li>-> Clone this repository.</li>
+  <li>-> Install <a href="https://nodejs.org">Node.JS</a></li>
+  <li>-> Clone this repository</li>
   <li>-> Open the repo directory in cmd</li>
   <li>-> run <code>npm install</code> to install the dependencies</li>
   <li>-> run <code>npm run dev</code></li>
