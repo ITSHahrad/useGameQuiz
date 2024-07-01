@@ -34,9 +34,9 @@ export default function App() {
   }
 
   return <>
-    <div className="w-full h-screen overflow-hidden bg-gray-900">
+    <div className="w-full h-screen overflow-hidden max-md:overflow-y-scroll bg-gray-900">
       <div className="w-11/12 flex flex-col mx-auto">
-        <div className="my-4 w-5/12 self-center">
+        <div className="my-4  max-md:w-full w-5/12 self-center">
           <Header />
         </div>
           {

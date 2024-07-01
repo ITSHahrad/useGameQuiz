@@ -3,7 +3,7 @@ import Error from "../../components/Error";
 import { useState } from "react";
 import StartScreen from "./StartScreen";
 import Question from "./Question";
-import StatusBar from "./StatusBar";
+import StatusBar from "../../components/StatusBar";
 import EndScreen from '../EndScreen'
 
 export default function Questions({questions}) {
